@@ -14,6 +14,15 @@
 		C92C585F23822363009D6A2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92C585E23822363009D6A2D /* Preview Assets.xcassets */; };
 		C92C586223822363009D6A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92C586023822363009D6A2D /* LaunchScreen.storyboard */; };
 		C92C586D23822363009D6A2D /* PinVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92C586C23822363009D6A2D /* PinVisionTests.swift */; };
+		C92C587823822387009D6A2D /* AppleImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92C587723822387009D6A2D /* AppleImageProcessor.swift */; };
+		C92C587B23822398009D6A2D /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92C587A23822398009D6A2D /* Vision.framework */; };
+		C92C587D238223B8009D6A2D /* ImageProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92C587C238223B8009D6A2D /* ImageProcessorTests.swift */; };
+		C92C5885238224A4009D6A2D /* medieval_madness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C92C587F238224A4009D6A2D /* medieval_madness.jpg */; };
+		C92C5886238224A4009D6A2D /* medieval_madness.png in Resources */ = {isa = PBXBuildFile; fileRef = C92C5880238224A4009D6A2D /* medieval_madness.png */; };
+		C92C5887238224A4009D6A2D /* tna_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C92C5881238224A4009D6A2D /* tna_2.jpeg */; };
+		C92C5888238224A4009D6A2D /* can_crusher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C92C5882238224A4009D6A2D /* can_crusher.jpg */; };
+		C92C5889238224A4009D6A2D /* tna_3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C92C5883238224A4009D6A2D /* tna_3.jpeg */; };
+		C92C588A238224A4009D6A2D /* tna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C92C5884238224A4009D6A2D /* tna.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +47,16 @@
 		C92C586823822363009D6A2D /* PinVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92C586C23822363009D6A2D /* PinVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinVisionTests.swift; sourceTree = "<group>"; };
 		C92C586E23822363009D6A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92C587723822387009D6A2D /* AppleImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleImageProcessor.swift; sourceTree = "<group>"; };
+		C92C587A23822398009D6A2D /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
+		C92C587C238223B8009D6A2D /* ImageProcessorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessorTests.swift; sourceTree = "<group>"; };
+		C92C587F238224A4009D6A2D /* medieval_madness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = medieval_madness.jpg; sourceTree = "<group>"; };
+		C92C5880238224A4009D6A2D /* medieval_madness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medieval_madness.png; sourceTree = "<group>"; };
+		C92C5881238224A4009D6A2D /* tna_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tna_2.jpeg; sourceTree = "<group>"; };
+		C92C5882238224A4009D6A2D /* can_crusher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = can_crusher.jpg; sourceTree = "<group>"; };
+		C92C5883238224A4009D6A2D /* tna_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tna_3.jpeg; sourceTree = "<group>"; };
+		C92C5884238224A4009D6A2D /* tna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tna.jpg; sourceTree = "<group>"; };
+		C92C588D2382255A009D6A2D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../../PinPals/.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92C587B23822398009D6A2D /* Vision.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +84,7 @@
 				C92C58542382235F009D6A2D /* PinVision */,
 				C92C586B23822363009D6A2D /* PinVisionTests */,
 				C92C58532382235F009D6A2D /* Products */,
+				C92C587923822398009D6A2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,7 +106,9 @@
 				C92C585B23822363009D6A2D /* Assets.xcassets */,
 				C92C586023822363009D6A2D /* LaunchScreen.storyboard */,
 				C92C586323822363009D6A2D /* Info.plist */,
+				C92C588D2382255A009D6A2D /* .gitignore */,
 				C92C585D23822363009D6A2D /* Preview Content */,
+				C92C587723822387009D6A2D /* AppleImageProcessor.swift */,
 			);
 			path = PinVision;
 			sourceTree = "<group>";
@@ -101,10 +124,33 @@
 		C92C586B23822363009D6A2D /* PinVisionTests */ = {
 			isa = PBXGroup;
 			children = (
+				C92C587E2382246E009D6A2D /* Test Images */,
 				C92C586C23822363009D6A2D /* PinVisionTests.swift */,
 				C92C586E23822363009D6A2D /* Info.plist */,
+				C92C587C238223B8009D6A2D /* ImageProcessorTests.swift */,
 			);
 			path = PinVisionTests;
+			sourceTree = "<group>";
+		};
+		C92C587923822398009D6A2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C92C587A23822398009D6A2D /* Vision.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C92C587E2382246E009D6A2D /* Test Images */ = {
+			isa = PBXGroup;
+			children = (
+				C92C5882238224A4009D6A2D /* can_crusher.jpg */,
+				C92C587F238224A4009D6A2D /* medieval_madness.jpg */,
+				C92C5880238224A4009D6A2D /* medieval_madness.png */,
+				C92C5881238224A4009D6A2D /* tna_2.jpeg */,
+				C92C5883238224A4009D6A2D /* tna_3.jpeg */,
+				C92C5884238224A4009D6A2D /* tna.jpg */,
+			);
+			path = "Test Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +244,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92C5886238224A4009D6A2D /* medieval_madness.png in Resources */,
+				C92C5887238224A4009D6A2D /* tna_2.jpeg in Resources */,
+				C92C5889238224A4009D6A2D /* tna_3.jpeg in Resources */,
+				C92C588A238224A4009D6A2D /* tna.jpg in Resources */,
+				C92C5885238224A4009D6A2D /* medieval_madness.jpg in Resources */,
+				C92C5888238224A4009D6A2D /* can_crusher.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C92C58562382235F009D6A2D /* AppDelegate.swift in Sources */,
+				C92C587823822387009D6A2D /* AppleImageProcessor.swift in Sources */,
 				C92C58582382235F009D6A2D /* SceneDelegate.swift in Sources */,
 				C92C585A2382235F009D6A2D /* ContentView.swift in Sources */,
 			);
@@ -218,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92C587D238223B8009D6A2D /* ImageProcessorTests.swift in Sources */,
 				C92C586D23822363009D6A2D /* PinVisionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
